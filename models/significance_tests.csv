@@ -1,0 +1,16 @@
+metric,comparison,test,statistic,p_value,p_holm,mean_diff,rf_better_folds
+R2 (line item),All 3 models,Friedman,16.5333,0.0003,,,
+R2 (line item),RF vs Gradient Boosting,Wilcoxon signed-rank,35.0000,0.1688,0.1688,0.0291,10/15
+R2 (line item),RF vs Gradient Boosting,Corrected resampled t,0.8373,0.4165,0.4165,0.0291,10/15
+R2 (line item),RF vs Linear Regression,Wilcoxon signed-rank,0.0000,0.0001,0.0001,0.1091,15/15
+R2 (line item),RF vs Linear Regression,Corrected resampled t,2.5276,0.0241,0.0483,0.1091,15/15
+MAE line (PHP),All 3 models,Friedman,16.5333,0.0003,,,
+MAE line (PHP),RF vs Gradient Boosting,Wilcoxon signed-rank,8.0000,0.0015,0.0015,111.7234,13/15
+MAE line (PHP),RF vs Gradient Boosting,Corrected resampled t,1.8554,0.0847,0.0847,111.7234,13/15
+MAE line (PHP),RF vs Linear Regression,Wilcoxon signed-rank,1.0000,0.0001,0.0002,346.4969,14/15
+MAE line (PHP),RF vs Linear Regression,Corrected resampled t,2.2522,0.0409,0.0818,346.4969,14/15
+MAPE event (%),All 3 models,Friedman,12.9333,0.0016,,,
+MAPE event (%),RF vs Gradient Boosting,Wilcoxon signed-rank,39.0000,0.2524,0.2524,1.0667,10/15
+MAPE event (%),RF vs Gradient Boosting,Corrected resampled t,0.6384,0.5335,0.5335,1.0667,10/15
+MAPE event (%),RF vs Linear Regression,Wilcoxon signed-rank,11.0000,0.0034,0.0067,5.8866,13/15
+MAPE event (%),RF vs Linear Regression,Corrected resampled t,1.5074,0.1539,0.3079,5.8866,13/15
